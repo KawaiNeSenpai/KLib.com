@@ -1,0 +1,137 @@
+<!-- Объявление формата документа -->
+<!DOCTYPE html>
+<html lang="ru">
+  <!-- Техническая информация о документе -->
+  <head>
+    <!--Изменение цвета маркеров-->
+    <style>
+      li {
+       color: #ef5a42; /* Цвет маркеров */
+      }
+     </style>
+    <!-- Определяем кодировку символов документа -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- Задаем заголовок документа -->
+    <title>KLib</title>
+    <base href="KLib.html" />
+    <!-- Подключаем иконку для сайта-->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <!-- Подключаем внешнюю таблицу стилей (css)-->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <!-- Подключаем сценарии (js)-->
+    <script type="text/javascript" src="script.js"></script>
+    <script src="vue.js"></script>
+    <!-- Подключил разделы с сайта(хз нах они нужны)(https://html5book.ru/adaptivnaya-vyorstka-sayta/) -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700,700italic|Playfair+Display:400,700&subset=latin,cyrillic"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+  </head>
+  <!-- Основная часть документа -->
+  <body>
+    <!-- Размер вроде как продравнять-->
+    <body style="width:100%"></body>
+    <!-- Изменение цвета гипер-ссылок -->
+    <body link="white" vlink="white" alink="white" bgcolor="white"></body>
+    <!-- Website Menu -->
+    <header class="up-block" >
+      <nav class="container">
+        <a class="logo" href="Razdel/Yeba.html">
+          <span>K</span>
+          <span>L</span>
+          <span>i</span>
+          <span>b</span>
+        </a>
+        <div class="nav-toggle"><span></span></div>
+        <div class="d6">
+          <form>
+            <input type="text" placeholder="Поиск манги..." />
+            <button type="submit"></button>
+          </form>
+        </div>
+        <ul id="menu">
+          <li><a href="">Каталог</a></li>
+          <li><a href="Razdel/info.html">Infopovod</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!--/ Website Menu -->
+    <div class="Page" id="main-page">
+      <div class="Page_Down">
+        <div class="container container_offset">
+          <!--Создание левого блока-->  
+          <div class="page__wrapper page__wrapper_left">
+            <section class="section paper">
+              <div class="section__body" id="left_block">
+                <div class="left poloska" id="left_poloska">
+                  <h2 class="page__title" id="text_page_title_left">
+                    <font size="3" color="mintcream" face="Segoe script">
+                      Новая манга
+                    </font>
+                  </h2>
+                </div>
+                <div class="left-block-image">
+                  <ul class="left-image">
+                    <li>
+                      <a href="" > <img class="angel-i-demon" src="images/Angel i demon.jpg"> </a>
+                      <font face="Segoe script">
+                      <p><a href="Razdel/Yeba.html" class="angel-i-demon-text"  >Ангел и Дьявол <br> <div class="left_poloska2" > <a class="date-angel" > Том 1. Глава 57</a> </div>  </a> </p>
+                      </font>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div> 
+      <!-- Создание Новостного блока-->
+          <div class="page__wrapper page__wrapper_center_up">
+           <section class="section paper center up">
+             <div class="section body" id="Center_Block_News" >
+               <div class="page_title" id="center_poloska">
+                <h2 class="page_title" id="text_page_title_center">
+                  <font size="3" color="mintcream" face="Segoe script">
+                    Последние новости
+                  </font>
+               </div>
+             </div>
+        </section>
+        </div>
+          <div class="page__wrapper page__wrapper_center">
+            <section class="section paper center">
+              <div class="body" id="center_block_new_glav">
+                <div class="page_title" id="center_update">
+                  <h2 class="page_title" id="text_page_title_center">
+                    <font size="3" color="mintcream" face="Segoe script">
+                      Новые главы
+                    </font>
+                </div>
+              </div>
+            </section>
+          </div>
+          <div class="page__wrapper page__wrapper_right">
+            <section class="section paper right">
+              <div class="section body" id="right_block">
+                <div class="page_title" id="right_poloska">
+                  <h2 class="page_title" id="text_page_title_right">
+                    <font size="3" color="mintcream" face="Segoe script">
+                      Популярная манга
+                    </font>
+                </div>
+              </div>
+            </section>
+          </div>
+    </div>
+  </body>
+</html>
